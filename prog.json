@@ -1,0 +1,11 @@
+{
+    "nome":"Palio",
+    "marca":"Fiat",
+    "ano":2013,
+    "cor":"azul",
+    "opcionais":{
+        "roda":"liga leve",
+        "aro":15,
+        "air_bag":"frente total"
+    }
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 1px;
+    font-weight: 400;
+}    
+body{
+    margin: 10px;
+    background-color: #b48e7b;
+    color: #dfc8c2;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    color: #7b372e;
+}
+button, input{
+    border-radius: 8%;
+    border: 1.3px solid black;
+    margin: 10px;
+}
+#res{
+    font-weight: 400;
+    color: #7b372e;
+}
