@@ -6,15 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="prog_cep.css">
     <script src="prog_cep.js" defer></script>
-    <title>Consulta CEP</title>
+    <title>Cadastro</title>
 </head>
 <body>
-    <h1>Consulte seu CEP</h1><hr>
-    <label for="valor_cep">Digite seu CEP:</label>
-    <input type="text" id="valor_cep">
-    <button id="consulta">Consultar</button>
-    <label for="valor_cep">Digite seu CEP:</label>
-    <input type="text" id="valor_cep">
-    <p id="res"></p>
+    <h1>Cadastro do cliente</h1><hr>
+    <div class="forms">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome">
+
+        <label for="valor_cep">CEP:</label>
+        <input type="text" id="valor_cep">
+        
+        <button id="consulta">Consultar</button>
+        
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado">
+        
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro">
+        
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua">
+        
+        <button id="cadastrado">Finalizar</button>
+        
+        <p id="res"></p>
+    </div>
 </body>
 </html>
